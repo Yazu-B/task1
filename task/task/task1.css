@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(207, 79, 79);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button button {
+    height: 40px;
+    width: 90px;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Main Content */
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10% 5%;
+    flex-wrap: wrap;
+}
+
+/* Player Cards */
+.ronaldo, .messi {
+    width: 350px;
+    text-align: center;
+}
+
+.ronaldo img,
+.messi img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.ronaldo p,
+.messi p {
+    margin: 8px 0;
+}

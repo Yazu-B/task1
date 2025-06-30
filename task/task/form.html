@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERTIFICATE</title>
+    <link type="text/css" href="form.css" rel="stylesheet">
+</head>
+<body>
+    <div class="parent">
+        <h1>Certificate Generation Options</h1>
+    <label>
+        Select mode:
+    <select>
+        <option value="sinlge_certificate">Single certificate (using form fields)</option>
+        <option value="multiple_certificate">Multiple certificate (using form fields)</option>
+    </select>
+    </label>
+    
+    </div>
+    <div class="row">
+        <div class="mode">
+            <label class="mode" >Certificate Type:</label><br>
+            <select id="select1">
+                    <option value="type">Best Project Award</option>
+                    <option value="type>">Project Completion Certificate</option>
+            </select>
+        </div>
+        <div class="mode1" >
+            <label for="mode">Recipient Name:</label><br>
+            <input type="text" placeholder="e.g Yazu Bhasinka">
+        </div>
+        <div class="mode3" id="batch">
+            <label>Batch:</label><br>
+            <input type="text" placeholder="e.g. 2024 AD">
+        </div>
+    </div>
+    <div class="row">
+        <div class="mode">
+            <label class="mode" >Program:(BCA/Bsc CSIT)</label><br>
+                    <input type="text" placeholder="eg. BCA">
+        </div>
+        <div class="mode1" >
+            <label for="mode">Academic Year</label><br>
+            <input type="text" placeholder="e.g 2024 AD">
+        </div>
+        <div class="mode3" id="batch">
+            <label>Project Title:</label><br>
+            <input type="text" placeholder="eg. Project Website">
+        </div>
+    </div>
+    <div class="row">
+        <div class="mode">
+            <label class="mode" >Course Instructor Name</label><br>
+                    <input type="text" placeholder="eg. Prof. ....">
+        </div>
+        <div class="mode1">
+            <label for="mode">Head Of Department Name:</label><br>
+            <input type="text" placeholder="eg.Prof ....">
+        </div>
+        <div class="mode3" id="batch">
+            <label>HOD Designation(Optional)</label><br>
+            <input type="text" placeholder="eg. Project Website">
+        </div>
+    </div>
+    <div class="row">
+        <div class="mode">
+            <label class="mode" >Principle Name</label><br>
+                    <input type="text" placeholder="eg. Prof. ....">
+        </div>
+        <div class="mode1">
+            <label for="mode">Principle Designation:</label><br>
+            <input type="text" placeholder="eg.Prof COllege Principle">
+        </div>
+        <div class="mode3" id="batch">
+            <label>College Name</label><br>
+            <input type="text" placeholder="eg. Samriddhi College">
+        </div>
+    </div>
+    <div class="row">
+        <div class="mode">
+            <label class="mode" >Affiliation</label><br>
+                    <input type="text" placeholder="eg. Name of University">
+        </div>
+        <div class="mode1">
+            <label for="mode">College Address:</label><br>
+            <input type="text" placeholder="Lokanthali">
+        </div>
+        <div class="mode3" id="batch">
+            <label>Contact Phone</label><br>
+            <input type="text" placeholder="9769321134">
+        </div>
+        </div><br>
+        <button onclick="alert('Are you sure?')">SUBMIT<span>  </span></button>
+        
+</body>
+</html>
